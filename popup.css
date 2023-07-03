@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(176, 244, 244);
+}
+
+.wrapper{
+    width:400px;
+    text-align: center;
+}
+
+h2{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.changeColorBtn{
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(227, 227, 35);
+    cursor: grab;
+    
+}
+
+.changeColorBtn:hover{
+    background-color: yellowgreen;
+}
+
+.colorGrid{
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.selectedColor{
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: bold;
+}
